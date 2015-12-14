@@ -4,6 +4,21 @@ header{position: absolute;}
 
 nav{position: absolute;}
 
-main{position: absolute;}
+main{position: absolute; top: 0%; left: 0%; width: 100%; height: 93%;}
 
 footer{position: absolute; bottom: 0%; left: 0%; width: 100%; height: 7%; background-color: black; color: white; text-align: center;}
+
+#frontWall{position: absolute; bottom: 0%; left: 0%; width: 100%; height: 30%; border-top: 2px solid black; background-color: purple;}
+#door{position: absolute; top: 0%; left: 40%; width: 20%; height: 100%; border-left: 1px solid black; border-right: 1px solid black;}
+.screen{position: absolute; top: 10%; left: 10%; width: 80%; height: 80%; border: 1px solid black; background-color: rgb(0, 0, 200);}
+.doorKnob{position: absolute; top: 50%; right: 0%; width: 5%; height: 8%; border: 2px solid black; border-radius: 100%; background-color: gold;}
+#mailSlot{position: absolute; top: 50%; right: 30%; width: 5%; height: 8%; border: 1px solid black; background-color: white;}
+
+#accountInput{position: absolute; left: calc(50% / 3); top: 20%;}
+#passwordInput{position: absolute; left: calc(50% / 3); top: 40%;}
+
+#submitButtonLogin{position: absolute; left: 35%; bottom: 15%; width: auto; height: auto; padding: 5%; background-color: rgb(200, 0, 0); color: white;}
+#submitButtonLogin:hover{background-color: red; cursor: pointer;}
+
+#doorOpen{position: absolute; top: 0%; left: 40%; width: 20%; height: 100%; border-left: 1px solid black; border-right: 1px solid black; display: none;}
+#openDoorScreen{position: absolute; left: 30%; top: 40%; color: white; text-align: center;}
