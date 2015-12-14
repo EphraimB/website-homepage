@@ -1,1 +1,9 @@
 .app{position: absolute; width: 20%; height: 25%; background-color: red;}
+
+header{position: absolute;}
+
+nav{position: absolute;}
+
+main{position: absolute;}
+
+footer{position: absolute;}
