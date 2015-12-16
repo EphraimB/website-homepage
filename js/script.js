@@ -6,6 +6,8 @@ var accountInput = document.getElementById("accountInput");
 var passwordInput = document.getElementById("passwordInput");
 var submitButtonLogin = document.getElementById("submitButtonLogin");
 
+var screenOnOpenDoor = document.getElementById("screenOnOpenDoor");
+
 submitButtonLogin.onclick = function()
 {
     //Clear the screen
@@ -13,8 +15,8 @@ submitButtonLogin.onclick = function()
     passwordInput.style.display = "none";
     submitButtonLogin.style.display = "none";
 
-    //Screen displays a welcome message
-    openDoorScreen.innerHTML = "Welcome, " + accountInput.value;
+    //Screen disappears
+    screenOnOpenDoor.style.display = "none";
 
     //Open the door
     door.style.display = "none";
