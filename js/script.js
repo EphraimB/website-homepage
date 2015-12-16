@@ -5,6 +5,7 @@ var openDoorScreen = document.getElementById("openDoorScreen");
 var accountInput = document.getElementById("accountInput");
 var passwordInput = document.getElementById("passwordInput");
 var submitButtonLogin = document.getElementById("submitButtonLogin");
+var opening = document.getElementById("opening");
 
 var screenOnOpenDoor = document.getElementById("screenOnOpenDoor");
 
@@ -21,4 +22,5 @@ submitButtonLogin.onclick = function()
     //Open the door
     door.style.display = "none";
     doorOpen.style.display = "inline";
+    opening.style.display = "inline";
 };

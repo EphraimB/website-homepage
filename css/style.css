@@ -22,5 +22,22 @@ footer{position: absolute; bottom: 0%; left: 0%; width: 100%; height: 7%; backgr
 
 #doorOpen{position: absolute; bottom: 0%; left: 40%; width: 10%; height: 90%; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; display: none;}
 #openDoorScreen{position: absolute; left: 30%; top: 40%; color: white; text-align: center;}
-#opening{position: absolute; right: 39.9%; bottom: 0%; width: 10%; height: 90%; background-color: white;}
-#topOfOpenDoor{position: absolute; left: 0%; top: 6%; width: 100%; border: 1px solid black; transform: rotate(10deg);}
+#opening{position: absolute; right: 39.9%; bottom: 0%; width: 10%; height: 90%; background-color: white; display: none;}
+#topOfOpenDoor{position: absolute; left: 0%; top: 6%; width: 100%; border-top: 1px solid black; transform: rotate(10deg);}
+#bottomOfOpenDoor{position: absolute; left: 0%; bottom: 6%; width: 100%; border-bottom: 1px solid black; transform: rotate(-10deg);}
+
+#topOpening{position: absolute; right: 0%; top: 0%; width: 51%; height: 6%; background-color: white;}
+#topOpeningLeftCrack{position: absolute; left: 2%; top: 0%; width: 49%; height: 1%; background-color: white;}
+#topOpeningLeftBottomCrack{position: absolute; left: 0%; top: 6%; width: 100%; height: 2%; background-color: white; transform: rotate(10deg);}
+#topOpeningLeftTopCrack{position: absolute; left: 3%; top: 3%; width: 49%; height: 1%; background-color: white; transform: rotate(10deg);}
+#topOpeningLeftTopCrackFilling{position: absolute; left: 6%; top: 3%; width: 47%; height: 1%; background-color: white; transform: rotate(10deg);}
+#topOpeningLeftTopCrackFillingTwo{position: absolute; left: 5%; top: 1%; width: 47%; height: 1%; background-color: white;}
+#topOpeningLeftTopCrackFillingThree{position: absolute; left: 10%; top: 2%; width: 40%; height: 1%; background-color: white;}
+#topOpeningLeftTopCrackFillingFour{position: absolute; left: 19%; top: 3%; width: 30%; height: 1%; background-color: white;}
+#topOpeningLeftTopCrackFillingFive{position: absolute; left: 39%; top: 4%; width: 10%; height: 2%; background-color: white;}
+
+#topOpeningRightBottomCrackFilling{position: absolute; left: 52%; top: 6%; width: 48%; height: 2%; background-color: white;}
+#topOpeningRightBottomCrackFillingTwo{position: absolute; left: 55%; top: 9%; width: 45%; height: 2%; background-color: white; transform: rotate(10deg);}
+#topOpeningRightBottomCrackFillingThree{position: absolute; left: 65%; top: 8%; width: 35%; height: 2%; background-color: white;}
+#topOpeningRightBottomCrackFillingFour{position: absolute; left: 75%; top: 8%; width: 25%; height: 3%; background-color: white; transform: rotate(10deg);}
+#topOpeningRightBottomCrackFillingFive{position: absolute; right: 0%; top: 5%; width: 2%; height: 9%; background-color: white; transform: rotate(180deg);}
